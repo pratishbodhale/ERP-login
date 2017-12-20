@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+
+  "name": "ERP Plugin",
+  "description": "Autofills details for ERP",
+  "version": "1.0",
+
+  // "background": {
+  //     "scripts": ["background.js"],
+  //     "persistent": false
+  // },
+  "content_scripts": [ {
+    "matches": ["*://erp.iitkgp.ernet.in/*/login.htm*"],
+    "js": ["jquery.min.js","exec.js"]
+  } ],
+  // "browser_action": {
+  //    "default_icon": "ERP-Banner.png",
+  //    "default_popup": "popup.html",
+  //    "default_title" : "ERP"
+  // },
+  "permissions": [
+     "activeTab",
+     "tabs"
+   ]
+}
