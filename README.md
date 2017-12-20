@@ -1,5 +1,6 @@
 # ERP-login
-Chrome Extension for IIT Kgp students to simplify ERP login process.
+This Chrome Extension is useful for IIT KGP students. It saves time required for entering credentials while logging into erp. This stores credentials locally and whenever erp tab is opened in chrome, user fields are autofilled. Also user is redirected to their ERP dashboard on its own.  
+
 
 ## How to install 
 
