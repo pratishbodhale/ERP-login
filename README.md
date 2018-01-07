@@ -8,7 +8,7 @@ This Chrome Extension is useful for IIT KGP students. It saves time required for
 
 * Extract zip to any folder in your file system
 
-* Edit exec.js by entering your details(Roll number, Password, Questions, Answers) in specified fields
+* Edit exec.js by entering your details(Roll number, Password, Questions, Answers) in specified fields. You can simply choose notepad for editing this file.
 
 * Go to Chrome menu -> More tools -> extensions
 
