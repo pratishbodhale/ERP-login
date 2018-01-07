@@ -35,7 +35,6 @@ $(document).ready(function(){
 	    }
 	    else{
 	    	alert('Please reload this page !!');
-	    	$('.panel-heading').text("Time out !!!!, Please Refresh the Page.");
 	    }
 	    $('input[type=submit]').click();
  	 }, 500);
